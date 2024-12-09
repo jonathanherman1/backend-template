@@ -13,8 +13,6 @@ This is the backend for a MERN demo.
         - [Steps](#steps)
       - [Install MongoDB Locally](#install-mongodb-locally)
         - [Steps](#steps-1)
-    - [Running the Application](#running-the-application)
-      - [Development](#development)
       - [Production](#production)
   - [Environment Variables](#environment-variables)
   - [Usage](#usage)
@@ -93,20 +91,6 @@ We need this for running the app in development and testing locally.
 ### Installation
 
 1. Clone the repository:
-
-    Check the big green button in GitHub!
-
-   ```sh
-   git clone https://github.com/jonathanherman1/backend-demo.git
-   cd backend-demo
-   ```
-
-   or you can use the GitHub CLI
-
-    ```sh
-    gh repo clone jonathanherman1/backend-demo
-    ```
-
 2. Install dependencies:
 
     ```sh
