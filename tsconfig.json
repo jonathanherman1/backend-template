@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",                                  /* Target modern JavaScript for Node.js compatibility. */
+    "module": "NodeNext",                                  /* Use ES Modules syntax for modern JavaScript. */
+    "moduleResolution": "nodenext",                     /* Resolve modules using Node.js's dual-module system. */
+    "lib": ["ESNext"],                                   /* Include libraries for modern ECMAScript features. */
+
+    /* Module Interop and Compatibility */
+    "esModuleInterop": true,                             /* Enable interop with CommonJS modules. */
+    "allowSyntheticDefaultImports": true,               /* Allow default imports from modules without a default export. */
+
+    /* Directories */
+    "rootDir": "./src",                                  /* Specify the root folder for TypeScript files. */
+    "outDir": "./dist",                                  /* Specify the output folder for compiled files. */
+
+    /* Debugging and Build */
+    "sourceMap": true,                                   /* Generate source maps for easier debugging. */
+    "resolveJsonModule": true,                           /* Allow importing JSON files. */
+    "skipLibCheck": true,                                /* Skip type checking of declaration files for faster builds. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable strict type-checking options. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure consistent casing in module imports. */
+    "noUnusedLocals": true,                              /* Report errors for unused variables. */
+    "noUnusedParameters": true,                          /* Report errors for unused function parameters. */
+    "noImplicitReturns": true,                           /* Ensure all code paths in a function return a value. */
+    "noFallthroughCasesInSwitch": true,                  /* Prevent fallthrough in switch statements. */
+    
+    /* Completeness */
+    "noEmitOnError": true                                /* Do not emit output files if there are errors. */
+  },
+  "include": ["src/**/*"],                                     /* Include all TypeScript files in the src directory. */
+  "exclude": ["node_modules", "dist"]                    /* Exclude build and dependency directories. */
+}
